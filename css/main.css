@@ -1,0 +1,172 @@
+@font-face {
+  font-family: 'Wisdom Script';
+  src: url('../fonts/wisdom-script.otf') format('opentype');
+}
+
+body {
+  font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+  background-color: #ECECEC;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+a, a:visited {
+  color: #78434E;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 5%;
+  box-sizing: border-box;
+}
+
+p {
+  line-height: 1.5em;
+}
+
+header {
+  max-height: 100px;
+  margin: 5% auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  font-family: 'Wisdom Script', cursive;
+  text-transform: capitalize;
+  font-size: 4em;
+}
+
+header h1 span {
+  color: #A5937D;
+}
+
+header nav {
+  width: 60%;
+}
+
+header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  list-style: none;
+}
+
+header nav ul li {
+  font-size: 1.2em;
+}
+
+header nav ul li a {
+  color: #78434E;
+  padding-left: 1em;
+}
+
+.top-section,
+.bottom-section {
+  margin: 0 auto;
+  clear: both;
+}
+
+.main-image {
+  height: auto;
+  width: 100%;
+}
+
+.main-image .credit {
+  margin: 0;
+  font-size: 0.5em;
+  text-align: right;
+}
+
+.main-image img {
+  border: 2px solid #78434E;
+  width: inherit;
+  box-sizing: border-box;
+}
+
+.main-title h3 {
+  text-align: center;
+  padding: 5%;
+  font-size: 1.5em;
+}
+
+.main-title span {
+  color: #A5937D;
+  padding-right: 0.25em;
+  font-family: 'Wisdom Script', cursive;
+  text-transform: capitalize;
+  font-size: 1.5em;
+}
+
+.main-title p {
+  padding: 0 5% 10% 5%;
+  font-size: 1.2em;
+  line-height: 2em;
+}
+
+.bottom-section {
+  display: flex;
+  justify-content: center;
+}
+
+.bottom-section h4 {
+  padding-bottom: 2%;
+  text-align: center;
+}
+
+.section-one,
+.section-two{
+  padding: 0 5%;
+}
+
+.section-one {
+  border: 1px solid #78434E;
+  border-radius: 10px;
+}
+
+.section-two {
+  text-align: center;
+  width: 60%;
+}
+
+
+.menu {
+  list-style: none;
+}
+
+.menu li {
+  padding: 1em 0;
+  color: #78434E;
+  font-size: 1.2em;
+  text-transform: capitalize;
+}
+
+.reviews {
+  color: #333;
+  padding-bottom: 5%;
+}
+
+footer {
+  clear: both;
+  padding: 10% 0 5% 0;
+}
+
+footer h4, footer p {
+  text-align: center;
+}
+
+footer span {
+  font-family: 'Wisdom Script', cursive;
+  text-transform: lowercase;
+  color: #78434E;
+  font-size: 2em;
+  padding: .25em;
+}
+
+.address {
+  line-height: 2em;
+}
